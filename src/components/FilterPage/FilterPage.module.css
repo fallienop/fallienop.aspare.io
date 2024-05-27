@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+.main{
+    width: 66.15vw;
+    height: 100%;
+    margin: 0 auto;
+    /* margin-top: 20vw; */
+    border: .07vw solid orange;
+    border-radius: 0.84vw;
+    font-family: "DM Sans";
+    padding-top: 1vw;
+  
+}
+
+
+
+.top{
+    display: flex;
+    gap: 28.38vw;
+    font-weight: 500;
+    font-size: 1.4vw;
+    line-height: 1.26vw;
+    /* border-bottom: 0.07vw solid #CCCCCC; */
+    width: 100%;
+    height: 3.82vw;
+    
+}
+
+.closeButton{
+    margin-left: 1.54vw;
+}
+
+.titleStyle{
+    font-size: 1.4vw;
+    line-height: 1.68vw;
+    font-weight: 500;
+}
+
+.minmax{
+    display: flex;
+    gap: 48.56vw
+}
+
+.minmax input{
+    width: 7vw;
+    height: 2.8vw;
+    outline: none;
+    border-radius: 0.21vw;
+    border:  0.035vw solid #9F9F9F;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.68vw;
+}
+.content{
+    margin-left: 1.54vw;
+    margin-right: 0.28vw;
+}
+.minmax p{
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.68vw;
+}
+
+.priceSlider{
+    margin-top: 1.4vw;
+}
+
+.brandSelect{
+    margin-top: 1.68vw;
+}
+
+.MakeAndModel{
+    display: flex;
+    gap:3vw;
+}
+
+.brand,.category,.company,.city,.year,.MakeAndModel{
+    margin-top: 1vw;
+}

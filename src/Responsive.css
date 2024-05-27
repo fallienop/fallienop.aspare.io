@@ -1,0 +1,291 @@
+@media screen and (max-width: 1200px) {
+  .card-summary{
+    padding:0;
+    border: 0;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .shop-type-product ul li:first-of-type button{
+    padding: 0.5rem 0.6rem;
+    font-size: 0.7rem;
+  }
+  .shop-type-product ul li p{
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .result-size ul li {
+    width: 130px;
+  }
+
+  .result-filter-search > div:last-of-type,
+  .result-filter-search > div:first-of-type {
+    padding: 15px;
+    height: 50px;
+  }
+
+  .result-size ul li a {
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+  }
+  .result-size ul li a i {
+    font-size: 15px;
+  }
+
+  .result-filter-search > div:last-of-type button,
+  .result-filter-search > div:first-of-type button {
+    font-size: 16px;
+  }
+  .result-filter-search > div:last-of-type i {
+    font-size: 16px;
+  }
+  .shops-cars-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .result-size ul input[type="number"] {
+    width: 95px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .shops-type-detail-img img {
+  width: 18rem;
+  }
+  .shops-shop-type-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .favorite-page-text p {
+    font-size: 15px;
+  }
+  .results-filter {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .shops-cars-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .shops-search-input div {
+    width: 40%;
+  }
+  .shops-search-input input {
+  font-size: 14px;
+  }
+  .shops-type-detail{
+    flex-direction: column;
+  }
+  .order-detail ul{
+    gap: 15px;
+    align-items: start;
+    padding: 0;
+  }
+  .order-detail ul li:first-of-type{
+    padding: 9px 7px 12px 7px;
+  }
+  .order-detail ul li:first-of-type svg {
+  font-size: 11px;
+  }
+  .order-detail ul li:first-of-type p {
+  font-size: 12px;
+  }
+  .order-detail > div{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .shops-shop-type-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .shops-cars-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .login-main-community > p:first-of-type {
+    font-size: 20px;
+  }
+  .login-main-community > p:nth-of-type(2),
+  .login-main-community > p:last-of-type {
+    font-size: 14px;
+  }
+  .login-photo i {
+    font-size: 100px;
+  }
+
+  .login-mail input {
+    padding: 12px 12px;
+  }
+  .next,
+  .decline,
+  .next-comfirm-photo,
+  .change-photo {
+    padding: 12px 24px;
+  }
+  .login-city input {
+    padding: 12px 12px;
+    font-size: 12px;
+  }
+  .error-message {
+    top: 2px;
+    font-size: 10px;
+  }
+
+  .login-city .password button {
+    top: 10px;
+  }
+  .login-city > p:last-of-type {
+    font-size: 11px;
+  }
+  .login-text p a {
+    margin-left: 2px;
+    font-size: 11px;
+  }
+  .login-main-create p,
+  .comfirmstep p:last-of-type {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .basket-class {
+    width: 120px;
+  }
+  .result-navigation a {
+    font-size: 22px;
+  }
+  .favoriteimg img{
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .favoriteimg p {
+    font-size: 14px;
+  }
+  .result-size ul li {
+    width: 120px;
+    line-height: 0;
+    height: 50px;
+  }
+
+  .result-size ul li a,
+  .result-size ul li a i, 
+  .result-size ul input[type="number"] {
+    font-size: 12px;
+  }
+  .result-filter-search > div:last-of-type,
+  .result-filter-search > div:first-of-type {
+    padding: 15px;
+    height: 45px;
+  }
+  .result-navigation a {
+    font-size: 16px;
+  }
+  .shops-search-input div {
+  width: 50%;
+  }
+  .shops-search-input input {
+    font-size: 12px;
+}
+.shops-shop-type-products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.shops-type-detail-img img {
+  width: 16rem;
+}
+
+.order-detail ul > li p{
+  font-size: 13px;
+}
+.order-detail img {
+  width: 90px;
+}
+.order-header ul {
+  gap: 55px;
+}
+.order-header ul li {
+  font-size: 15px;
+}
+.order-detail > div{
+  padding-right: 0;
+}
+}
+
+@media screen and (max-width: 430px) {
+  .gmail button p {
+    font-size: 12px;
+  }
+  .gmail img {
+    width: 15px;
+  }
+  .comfirmstep p:last-of-type {
+    font-size: 14px;
+  }
+  .result-size ul li {
+    width: 90px;
+    height: 45px;
+  }
+  .result-size ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .result-size ul li a,
+  .result-size ul li a i, 
+  .result-size ul input[type="number"] {
+    font-size: 11px;
+  }
+  .result-size ul {
+    gap: 10px;
+  }
+  .shops-search-input i{
+    font-size: 12px;
+  }
+  .shops-type-detail-text > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.result-size ul input[type="number"] {
+  width: 60px;
+}
+}
+
+@media screen and (max-width: 410px) {
+  .shops-cars-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shops-car img{
+    height: 4rem;
+  }
+  .order-detail ul > li p {
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width: 370px) {
+  .shops-shop-type-products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}

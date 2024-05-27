@@ -1,0 +1,68 @@
+.main {
+
+    width: 66.15vw;
+    height: auto;
+    margin: 0 auto;
+    margin-block: 100px;
+    border: .07vw solid orange;
+    border-radius: 0.84vw;
+    font-family: "DM Sans";
+    padding: 3vw;
+}
+
+.closeButton {
+    margin: 0;
+    padding: 0;
+    font-size: 4vw;
+    color: black;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 61vw;
+}
+
+.closeButton:hover {
+    color: red;
+
+    border-radius: 0.8vw;
+
+}
+
+.main h2 {
+ text-align: center;
+}
+
+.doubleSelect {
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+.inputt {
+    height: 3vw;
+    width: 29.5vw;
+    border-radius: 0.3vw;
+    border-width: 0.05vw;
+    border-color: grey;
+}
+
+.textArea{
+width: 65.5vw;
+height: 8vw;
+resize: none;
+border-radius: 0.6vw;
+}
+
+.sendButton{
+    display: block;
+    margin: 0 auto;
+    width: 67vw;
+    height: 3vw;
+    background-color: green;
+    border-radius: 0.5vw;
+    border: 0;
+    color: white;
+    margin-top: 2vw;
+}

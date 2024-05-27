@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+.store {
+  margin: 70px 0;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .head {
+      h2 {
+        font-family: "Inter", sans-serif !important;
+        font-weight: 600;
+        font-size: 32px;
+      }
+    }
+    .all {
+      a {
+        text-decoration: none;
+        color: inherit;
+        button {
+          font-family: "Inter", sans-serif !important;
+          background-color: #f86338;
+          border: none;
+          color: #fafafa;
+          border-radius: 5px;
+          padding: 10px 25px;
+        }
+      }
+    }
+  }
+  .block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    border-radius: 6px;
+    padding: 30px;
+    .leftSide {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+      .image {
+        width: 220px;
+        height: 220px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .nameANDlocation {
+        margin-top: 25px;
+        .name {
+          h3 {
+            color: #1f2937;
+            font-family: "DM Sans", sans-serif !important;
+            font-size: 30px;
+            font-weight: 700;
+          }
+        }
+        .location {
+          display: flex;
+          flex-direction: row;
+          align-items: baseline;
+          gap: 7px;
+          span {
+            svg {
+              width: 24px;
+              height: 24px;
+              color: #f86338;
+            }
+          }
+          p {
+            font-family: "DM Sans", sans-serif !important;
+            color: #6b7280;
+            font-weight: 500;
+            font-size: 21px;
+          }
+        }
+      }
+    }
+    .rightSide {
+      display: flex;
+      align-items: end;
+      .button {
+        button {
+          font-family: "DM Sans", sans-serif !important;
+          color: #ffffff;
+          border: none;
+          background-color: #f86338;
+          border-radius: 4px;
+          font-size: 20px;
+          padding: 5px 30px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 970px) {
+  .store {
+    .block {
+      .leftSide {
+        .nameANDlocation {
+          .name {
+            h3 {
+              font-size: 25px;
+            }
+          }
+          .location {
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .rightSide {
+        .button {
+          button {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 771px) {
+  .store {
+    .header {
+      .head {
+        h2 {
+          font-size: 28px;
+        }
+      }
+      .all {
+        a {
+          button {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .block {
+      .leftSide {
+        .nameANDlocation {
+          .name {
+            h3 {
+              font-size: 22px;
+            }
+          }
+          .location {
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .rightSide {
+        .button {
+          button {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 747px) {
+  .store {
+    .block {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .leftSide {
+        .nameANDlocation {
+          .name {
+            h3 {
+              font-size: 22px;
+            }
+          }
+          .location {
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .rightSide {
+        display: flex;
+        align-items: flex-end;
+        .button {
+          width: 150px;
+          button {
+            font-size: 15px;
+            padding: 7px 40px;
+          }
+        }
+      }
+    }
+  }
+}

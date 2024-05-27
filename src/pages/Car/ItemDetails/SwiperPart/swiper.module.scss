@@ -1,0 +1,94 @@
+.swiper {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    .head {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+          font-weight: 600;
+          font-size: 45px;
+          text-align: center;
+      }
+      p{
+          margin-top: 10px;
+          text-align: center;
+          font-weight: 400;
+          font-size: 16px;
+          color: #515151;
+          line-height: 30px;
+          width: 70%;
+      }
+    }
+    .cards{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .swiperPart{
+        margin-top: 80px;
+        .block{
+          background-color: #F5F5F5;
+          border-radius: 12px;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 50px;
+          .header{
+            h5{
+              font-weight: 700;
+              font-size: 16px;
+              color: #000000;
+              float: right;
+              span{
+                color: #fb5607;
+              }
+            }
+          }
+          .image{
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            h3{
+              font-size: 24px;
+              font-weight: 700;
+              color: #11142D;
+            }
+            h4{
+              font-weight: 400;
+              font-size: 16px;
+              color: #9A9AB0;
+            }
+            .price{
+              display: flex;
+              flex-direction: row;
+              gap: 15px;
+              .current{
+                font-size: 10px;
+                color: #F86338;
+                span{
+                  font-size: 16px;
+                  font-weight: 500;
+                }
+              }
+              .discount{
+                font-size: 10px;
+                color: #9A9AB0;
+                del{
+                  font-size: 16px;
+                  font-weight: 500;
+  
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
